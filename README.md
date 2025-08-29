@@ -1,2 +1,1 @@
-# nostoslabs.com
-Landing Page
+# kreitzer-dot-dev
