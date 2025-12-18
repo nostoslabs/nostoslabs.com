@@ -174,9 +174,10 @@ const HomePage = ({ isDarkMode, userName, onPostSelect }: { isDarkMode: boolean,
                         variant="outline"
                         size="lg"
                         className="transition-all duration-300 hover:scale-105 border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white"
+                        onClick={() => window.open('/foodlogger', '_blank')}
                     >
-                        <BookOpen className="mr-2 h-5 w-5" />
-                        Our Services
+                        <span className="mr-2 text-xl">🍽️</span>
+                        FoodLogger.me
                     </Button>
                 </motion.div>
 
